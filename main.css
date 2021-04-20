@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#f5ead7;
+}
+
+
+
+.heder{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 60px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+
+}
+
+
+.notification{
+  flex: 1 1 auto;
+}
+
+.time{
+  flex: 1 1 auto;
+
+}
+
+.map{
+  flex: 0 1 auto;
+}
+
+.time_style{
+  font-size: 4vw;
+  font-family: 'Nunito', sans-serif;
+  
+
+}
+
+.grid_container{
+  display: grid;
+  grid-template-columns: repeat(5, 10%) ; 
+  grid-template-rows: 1fr 1fr ;
+  width: 1000px;
+  
+
+}
+
+
+.dorm_events{
+  grid-column: 1/1;
+  grid-row: 1/1;
+  display: grid;
+  grid-template-columns: 167px 167px 167px ;
+  grid-template-rows: 120px repeat(3, 220px ) 180px ;
+  background-color: #fffbf4;
+  width: 700px;
+  height: 1000px;
+  border-radius: 25px;
+  margin-left: 60px ;
+  gap: 10px;
+
+}
+
+.item1{
+
+background-color: #f2f2f2;
+grid-column: 1 / span 2;
+grid-row: 1/1; 
+border-radius: 25px;
+margin-top: 10px;
+padding-left: 20px;
+padding-top: 30px;
+font-size: 30px;
+margin-left: 10px;
+
+
+
+
+}
+
+.item1_1{
+grid-column: 1/ span 2;
+grid-row: 1/1; 
+font-family: 'Nunito', sans-serif;
+font-size: 30px;
+padding-top: 50px;
+padding-left: 120px;
+color: #7d7c7a;
+
+}
+
+.item2{
+
+  grid-column: 1 / span 4;
+  grid-row: 2/2; 
+  font-family: 'Nunito', sans-serif;
+  padding-left: 15px;
+  font-size: 17px;
+  border: 1px solid #7d7c7a;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.item3{
+  
+  grid-column: 1 / span 4;
+  grid-row: 3/3; 
+  font-family: 'Nunito', sans-serif;
+  padding-left: 15px;
+  font-size: 17px;
+  border: 1px solid #7d7c7a;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.item4{
+
+  grid-column: 1 / span 4;
+  font-family: 'Nunito', sans-serif;
+  grid-row: 4/4; 
+  padding-left: 15px;
+  font-size: 17px;
+  border: 1px solid #7d7c7a;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.item5{
+
+  grid-column: 1 / span 4;
+  grid-row: 5/5; 
+  font-family: 'Nunito', sans-serif;
+  padding-left: 15px;
+  font-size: 17px;
+  border: 1px solid #7d7c7a;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.cleaing_scheduel{
+  grid-column: 2/2 ;
+  grid-row:1/1;
+  display: grid;
+  /* grid-template-columns: 167px 167px 167px ;
+  grid-template-rows: 120px repeat(3, 220px ) 180px ; */
+  width: 700px;
+  height: 1000px;
+background-color: #fff;
+
+
+}
