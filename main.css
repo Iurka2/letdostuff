@@ -9,33 +9,20 @@ body{
 .heder{
   display: flex;
   height: 100px;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding-right: 60px;
   padding-left: 40px;
   margin-bottom: 50px;
-
+  margin-top: 60px;
 }
 
 
-.notification{
-  flex: 1 1 auto;
-}
-
-.time{
-  flex: 1 1 auto;
-
-}
-
-.map{
-  flex: 0 1 auto;
-}
 
 .time_style{
-  font-size: 4vw;
+  font-size: 60px;
   font-family: 'Nunito', sans-serif;
-  
-
+  color: #525252;
+  font-weight: bold;
 }
 
 .grid_container{
@@ -151,7 +138,11 @@ color: #7d7c7a;
   grid-template-rows: 120px repeat(3, 220px ) 180px ; */
   width: 700px;
   height: 1000px;
-background-color: #fff;
-
-
+  background-color: #fff;
 }
+
+body {
+  background-color: #fffbf4;
+}
+
+

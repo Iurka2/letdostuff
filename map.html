@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="notifications.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Map</title>
+</head>
+
+<body>
+
+    <div class="heder">
+        <div class="header-icon">
+            <a href="index.html"><img src="icons/home-left.svg"></a>
+        </div>
+
+        <div class="time">
+            <div class="time_style" id="clock"></div>
+        </div>
+
+        <div class="header-icon">
+            <a href="notifications.html"><img src="icons/notification-right.svg"></a>
+        </div>
+    </div>
+
+    <div class="notifications-container">
+        <div id='map' style='width: 90vw; height: 1200px; border-radius: 20px;'></div>
+        <script>
+            mapboxgl.accessToken =
+                'pk.eyJ1IjoiZGF2aWRqb2JiYWd5IiwiYSI6ImNrbTYxNzVwdDBqdGcyeGp4YnJvb3U3cnkifQ.6NsP-GtOvjm0G9KhW42Seg';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/davidjobbagy/cknrak0e90n4017msw1s32csg'
+            });
+        </script>
+    </div>
+
+    <script src="jsjs.js"></script>
+
+</body>
