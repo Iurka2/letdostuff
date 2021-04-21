@@ -1,0 +1,12 @@
+body {
+    background-color: #fffbf4;
+}
+
+#clock {
+    font-family: nunito, sans-serif;
+    color: #333333;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
