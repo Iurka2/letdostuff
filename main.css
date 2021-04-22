@@ -1,7 +1,9 @@
 body{
   margin: 0;
   padding: 0;
-  background-color:#f5ead7;
+  
+  background-image: url(images/176948942_567381940896776_1370475187197758408_n.png) ;
+  background-repeat: no-repeat;
  
   overflow-x: hidden;
 }
